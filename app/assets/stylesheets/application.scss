@@ -11,3 +11,12 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.container {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+  color: white;
+}

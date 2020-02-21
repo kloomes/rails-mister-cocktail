@@ -1,0 +1,19 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("bar.jpeg");
+  height: 33%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 100px;
+  p {
+    color: #f46bb4;
+    font-weight: bold;
+    font-size: 2em;
+  }
+  h1 {
+    font-family: 'Satisfy';
+    font-weight: bold;
+    font-size: 5em;
+    color: #f46bb4;
+  }
+}

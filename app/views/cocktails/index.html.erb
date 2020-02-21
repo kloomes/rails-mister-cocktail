@@ -1,6 +1,11 @@
-<h1>Cocktails</h1>
-
-<% @cocktails.each do |cocktail| %>
-<p><%= link_to cocktail.name, cocktail_path(cocktail.id) %></p>
-<hr>
-<% end %>
+<div class="banner">
+  <h1>Cosmos and Cheesecake!</h1>
+  <p>Like Cosmos? Like Cheesecake? This is the place for you!</p>
+</div>
+<div class="index-container">
+  <% @cocktails.each do |cocktail| %>
+    <div class="card-category">
+      <%= link_to cocktail.name, cocktail_path(cocktail.id), class: 'text' %>
+    </div>
+  <% end %>
+</div>
