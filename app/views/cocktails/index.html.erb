@@ -4,7 +4,7 @@
 </div>
 <div class="index-container">
   <% @cocktails.each do |cocktail| %>
-    <div class="card-category">
+    <div class="card-category" style="  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(<%= cl_image_path cocktail.photo.key, height: 300, width: 400, crop: :fill %>);">
       <%= link_to cocktail.name, cocktail_path(cocktail.id), class: 'text' %>
     </div>
   <% end %>
